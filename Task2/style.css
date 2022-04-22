@@ -1,0 +1,126 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+/* table */
+h1 {
+  margin-bottom: 10px;
+}
+table {
+  background-color: rgb(173, 173, 157);
+  border-radius: 10px;
+  margin: auto;
+  border-collapse: collapse;
+  width: 955px;
+  height: 545px;
+}
+td {
+  padding-left: 30px;
+}
+/* 1st row */
+tr:nth-child(1) {
+  height: 170px;
+  width: 170px;
+  font-size: 22px;
+  color: #ffff;
+}
+th:nth-child(1) {
+  border-radius: 10px 0 0 0;
+  background-color: #7886aa;
+}
+th:nth-child(2) {
+  background-color: #4e628f;
+}
+th:nth-child(3) {
+  background-color: #2e4072;
+}
+th:nth-child(4) {
+  background-color: #162955;
+}
+th:nth-child(5) {
+  border-radius: 0 10px 0 0;
+  background-color: #071538;
+}
+/* 2nd row */
+tr:nth-child(2) {
+  background-color: #e7e7e6;
+}
+tr:nth-child(2) > td:nth-child(2n + 1) {
+  background-color: #dadbda;
+}
+/* 3nd row */
+tr:nth-child(3) {
+  background-color: #e7e7e6;
+}
+tr:nth-child(3) > td:nth-child(2n + 1) {
+  background-color: #dadbda;
+}
+/* 4th row */
+tr:nth-child(4) {
+  background-color: #e7e7e6;
+}
+tr:nth-child(4) > td:nth-child(2n + 1) {
+  background-color: #dadbda;
+}
+/* 5th row */
+tr:nth-child(5) {
+  background-color: #e7e7e6;
+}
+tr:nth-child(5) > td:nth-child(2n + 1) {
+  background-color: #dadbda;
+}
+/* 6th row */
+tr:nth-child(6) {
+  background-color: #e7e7e6;
+}
+tr:nth-child(6) > td:nth-child(2n + 1) {
+  background-color: #dadbda;
+}
+/* 7th row */
+tr:nth-child(7) {
+  background-color: #e7e7e6;
+}
+tr:nth-child(7) > td:nth-child(2n + 1) {
+  background-color: #dadbda;
+}
+/* 8th row */
+tr:nth-child(8) > td:first-child {
+  border-radius: 0 0 0 10px;
+}
+tr:nth-child(8) > td:last-child {
+  border-radius: 0 0 10px 0;
+}
+tr:nth-child(8) {
+  background-color: #e7e7e6;
+}
+tr:nth-child(8) > td:nth-child(2n + 1) {
+  background-color: #dadbda;
+}
+/* table */
+a {
+  text-decoration: none;
+  color: gray;
+  font-weight: bold;
+  border: 1px solid gray;
+  padding: 10px 20px;
+  background-color: #d3d2d3;
+  transition: all 0.3s linear;
+}
+a:hover {
+  background-color: #f3f3f3;
+  border-radius: 1em;
+}
+td:nth-child(2):not(:first-child),
+td:nth-child(3):not(:first-child),
+td:nth-child(4):not(:first-child),
+td:nth-child(5):not(:first-child),
+td:nth-child(6):not(:first-child),
+td:nth-child(7):not(:first-child),
+td:nth-child(8):not(:first-child) {
+  padding: 5px 0;
+  text-align: center;
+}
+tr:nth-child(8) > td {
+  padding-bottom: 10px;
+}

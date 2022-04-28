@@ -49,13 +49,13 @@ th:nth-child(5) {
 }
 /* body */
 td:nth-child(even) {
-  background-color: #f2f3f381;
+  background-color: #f2f3f38e;
 }
 tr:nth-child(odd) {
-  background-color: #dadbda;
+  background-color: #f1f1f1;
 }
 tr:nth-child(even) {
-  background-color: #edeced;
+  background-color: #dadbda;
 }
 tr:nth-child(8) > td:first-child {
   border-radius: 0 0 0 10px;
